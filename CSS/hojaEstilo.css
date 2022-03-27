@@ -1,0 +1,74 @@
+footer,html{
+    background-color: black;
+}
+footer{
+    padding:0% 15% 4%
+}
+.row{
+    background-color: black;
+    padding: 4% 15% 0% 15% ;
+}
+h1{
+    font: "arial";
+    color: rgb(96, 143, 231);
+    text-align:center
+}
+h3{
+    font: "arial";
+    color:rgb(158, 106, 9);
+}
+p{
+    color: aliceblue;
+    line-height:25px;
+}
+#list-group a {
+    float: left;
+    display: block;
+    width: 100%;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+#list-group a:hover {
+    background-color: #ddd;
+    color: black;
+}
+#list-group a.active {
+    background-color: rgb(54, 54, 54);
+    color: white;
+  }
+#list-group{
+    position: fixed;
+    top: 210px;
+    width: 16.5%;
+}
+#carouselExampleSlidesOnly{
+    position: fixed;
+    top: 210px;
+    width: 16.5%;
+}
+.col{
+    text-align: center;
+    padding-top: 30px;
+}
+.col a i{
+   font-size: 30px;
+   
+}
+@media (max-width: 576px) {
+    .row{
+        padding: 0%;
+    }
+    #list-group{
+        position: relative;
+        width: 100%;
+        top: 0%;
+    }
+    #carouselExampleSlidesOnly{
+        position: relative;
+        width: 100%;
+        top: 0%;
+    }
+  }
