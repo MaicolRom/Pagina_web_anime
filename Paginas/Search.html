@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<link rel= "stylesheet" href="../Css/hojaEstilo.css"type="text/css">
+<link rel="stylesheet" href="../Imagenes/Iconos/icons-main/font/bootstrap-icons.css" type="text/css">
+<html>
+  <div class="col-sm-3">
+    <div id="list-group">
+        <a href="../Pagina.html" >PRINCIPAL<i class="bi bi-house"></i></a>
+        <a href="#" class="active " aria-current="true" >BUSCAR</a>
+        <a href="SHONEN.html" >SHONEN</a>
+        <a href="SEINEN.html">SEINEN</a>
+        <a href="ISEKAI.html">ISEKAI</a>
+        <a href="VIDA ESCOLAR.html" >VIDA ESCOLAR</a>
+        <a href="GORE.html" >GORE</a>
+      </div>
+</div>
+    <title>Buscador de animes</title>    
+  </head>
+  <body>
+    
+    <form class="search">
+      <input id="search_query" type="text" name="query" autocomplete="off" />
+      <button onclick="ejecutarApi()">Buscar</button>
+      <button id="hide">Esconder</button>
+      <button id="show">Mostrar</button>
+    </form>
+    <div id="results"></div>
+    <script src="../Script/jquery-3.6.0.min.js"></script>
+    <script src="../Script/mostrarApi.js"></script>
+    
+  </body>
+</html>

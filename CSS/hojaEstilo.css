@@ -55,7 +55,19 @@ p{
 }
 .col a i{
    font-size: 30px;
-   
+}
+.search {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+#results,
+#results > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    padding-top: 1rem;
 }
 @media (max-width: 576px) {
     .row{
